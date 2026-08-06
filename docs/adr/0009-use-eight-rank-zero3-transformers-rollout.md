@@ -1,0 +1,3 @@
+# 使用八卡 ZeRO-3 原地 Transformers Rollout
+
+在单机 8×V100-SXM2-16GB 上，SFT 与 GRPO 均使用 8 个 DeepSpeed ZeRO-3 训练 rank；GRPO 不拆分“trainer卡+专用rollout卡”，而由全部训练进程原地使用 Transformers 生成 completion。首版显式设置 `use_vllm=false`、`ds3_gather_for_generation=false`、`per_device_train_batch_size=1`、`num_generations=4` 与 `generation_batch_size=8`。当前 stable vLLM 不支持 V100；LMDeploy PyTorchEngine 虽可用于两卡独立推理对照，但不能直接替换当前 MS-SWIFT rollout。若未来自建6卡trainer+2卡LMDeploy连接器，还需解决policy/LoRA权重同步、6卡显存，并把 `num_generations=4` 下的最小合法 `generation_batch_size` 调整为12。默认使用纯GPU ZeRO-3；CPU parameter offload只作末级OOM回退，首版排除NVMe offload。完整配置见 `8卡分布式训练方案.md`。
