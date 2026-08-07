@@ -2,7 +2,7 @@
 
 **What to build:** 使用轻量兼容测试模型和少量合法多模态样本贯通 SFT 数据、processor、assistant-only loss、LoRA、checkpoint 恢复和推理回归，为 8 卡正式 smoke test 提前消除实现错误。轻量模型只用于测试训练链路，不作为正式 actor。
 
-**Blocked by:** 02 — 贯通统一静态图片与 GIF 媒体管线；03 — 锁定 taxonomy、四字段 Schema 与 canonical actor Prompt；06 — 贯通原始样本到正式参考答案
+**Blocked by:** 02 — 贯通统一静态图片与 GIF 媒体管线；03 — 锁定 taxonomy、四字段 Schema、canonical actor Prompt 与数据制作 Prompt；06 — 贯通原始样本到正式参考答案
 
 **Status:** ready-for-agent
 

@@ -2,7 +2,7 @@
 
 **What to build:** 从对应的正式 SFT 状态继续四档 GRPO，对比格式、核心字段、R5 结果、奖励稳定性和能力保持，选择最终生产 actor，而不引入未确认的数值验收线。
 
-**Blocked by:** 10 — 贯通 GRPO 奖励计算链路；14 — 完成 8 卡 Qwen3-VL-8B GRPO smoke test；15 — 执行四档 SFT 学习曲线并选择 SFT checkpoint
+**Blocked by:** 10 — 贯通 GRPO 奖励计算链路；14 — 完成 8 卡 Qwen3-VL-8B-Instruct GRPO smoke test；15 — 执行四档 SFT 学习曲线并选择 SFT checkpoint
 
 **Status:** ready-for-agent
 

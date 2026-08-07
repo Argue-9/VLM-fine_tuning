@@ -2,7 +2,7 @@
 
 **What to build:** 在已冻结的 2.5k、5k、7.5k、10k 数据清单上执行可比较的正式 SFT，使用统一评估和 TensorBoard 曲线判断数据边际收益，并选出进入 GRPO 的 SFT checkpoint。
 
-**Blocked by:** 09 — 冻结 10,000 条训练数据与评估集合；12 — 完成 8 卡 Qwen3-VL-8B SFT smoke test
+**Blocked by:** 09 — 冻结 10,000 条训练数据与评估集合；12 — 完成 8 卡 Qwen3-VL-8B-Instruct SFT smoke test
 
 **Status:** ready-for-agent
 

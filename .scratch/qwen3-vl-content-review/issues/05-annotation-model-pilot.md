@@ -2,7 +2,7 @@
 
 **What to build:** 在同一批包含静态图片、GIF、good、风险和边界场景的业务样本上运行 `qwen3.7-plus` 与本地候选方案，经过完全相同的媒体、Prompt、Schema 和 R5 检查后，选择全量 candidate 生成方式。
 
-**Blocked by:** 02 — 贯通统一静态图片与 GIF 媒体管线；03 — 锁定 taxonomy、四字段 Schema 与 canonical actor Prompt；04 — 接通 R5 决策边界与最终结果
+**Blocked by:** 02 — 贯通统一静态图片与 GIF 媒体管线；03 — 锁定 taxonomy、四字段 Schema、canonical actor Prompt 与数据制作 Prompt；04 — 接通 R5 决策边界与最终结果
 
 **Status:** ready-for-agent
 

@@ -1,6 +1,6 @@
-# 12 — 完成 8 卡 Qwen3-VL-8B SFT smoke test
+# 12 — 完成 8 卡 Qwen3-VL-8B-Instruct SFT smoke test
 
-**What to build:** 在单机 8×V100-SXM2-16GB 上运行正式 Qwen3-VL-8B FP16 LoRA SFT 最小训练，证明 ZeRO-3、真实视觉 token、checkpoint 和 TensorBoard 监控能够在目标硬件上稳定工作。
+**What to build:** 在单机 8×V100-SXM2-16GB 上运行正式 Qwen3-VL-8B-Instruct FP16 LoRA SFT 最小训练，证明 ZeRO-3、真实视觉 token、checkpoint 和 TensorBoard 监控能够在目标硬件上稳定工作。
 
 **Blocked by:** 11 — 完成 SFT 最小可执行 tracer
 

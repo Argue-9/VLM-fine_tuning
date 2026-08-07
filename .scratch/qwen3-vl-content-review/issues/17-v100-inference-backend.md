@@ -2,7 +2,7 @@
 
 **What to build:** 使用最终 actor 在相同 V100、媒体、Prompt 和样本条件下比较两卡 Transformers 与 LMDeploy PyTorchEngine TP=2，选择后端并接入生产端到端链路。
 
-**Blocked by:** 02 — 贯通统一静态图片与 GIF 媒体管线；03 — 锁定 taxonomy、四字段 Schema 与 canonical actor Prompt；04 — 接通 R5 决策边界与最终结果；16 — 执行四档 GRPO 学习曲线并选择最终 actor
+**Blocked by:** 02 — 贯通统一静态图片与 GIF 媒体管线；03 — 锁定 taxonomy、四字段 Schema、canonical actor Prompt 与数据制作 Prompt；04 — 接通 R5 决策边界与最终结果；16 — 执行四档 GRPO 学习曲线并选择最终 actor
 
 **Status:** ready-for-agent
 

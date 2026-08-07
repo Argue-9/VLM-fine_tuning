@@ -2,7 +2,7 @@
 
 **What to build:** 用锁定版本的真实 R5 适配器替换端到端骨架中的 R5 测试替身，使任何合法 VLM 中间结果只通过 `risk_type + evidence` 得到唯一的二元结果和 10 类 `vlm_advice`。
 
-**Blocked by:** 01 — 建立可执行的端到端契约骨架；03 — 锁定 taxonomy、四字段 Schema 与 canonical actor Prompt
+**Blocked by:** 01 — 建立可执行的端到端契约骨架；03 — 锁定 taxonomy、四字段 Schema、canonical actor Prompt 与数据制作 Prompt
 
 **Status:** ready-for-agent
 

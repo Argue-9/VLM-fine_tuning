@@ -2,7 +2,7 @@
 
 **What to build:** 对合法和非法 completion 端到端计算已确认的渐进格式、严格语义门、risk type、evidence、R5、CoT 和长度奖励，并把外部 R5 故障与模型得分严格分离。
 
-**Blocked by:** 03 — 锁定 taxonomy、四字段 Schema 与 canonical actor Prompt；04 — 接通 R5 决策边界与最终结果；06 — 贯通原始样本到正式参考答案
+**Blocked by:** 03 — 锁定 taxonomy、四字段 Schema、canonical actor Prompt 与数据制作 Prompt；04 — 接通 R5 决策边界与最终结果；06 — 贯通原始样本到正式参考答案
 
 **Status:** ready-for-agent
 

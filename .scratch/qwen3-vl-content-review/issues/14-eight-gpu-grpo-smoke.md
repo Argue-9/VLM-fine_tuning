@@ -1,8 +1,8 @@
-# 14 — 完成 8 卡 Qwen3-VL-8B GRPO smoke test
+# 14 — 完成 8 卡 Qwen3-VL-8B-Instruct GRPO smoke test
 
 **What to build:** 在单机 8×V100 上用全部 ZeRO-3 rank 原地执行 Transformers rollout 和 GRPO 更新，证明正式模型、奖励、reference、generation batch 与 TensorBoard 监控在目标硬件上稳定运行。
 
-**Blocked by:** 12 — 完成 8 卡 Qwen3-VL-8B SFT smoke test；13 — 完成 GRPO 最小可执行 tracer
+**Blocked by:** 12 — 完成 8 卡 Qwen3-VL-8B-Instruct SFT smoke test；13 — 完成 GRPO 最小可执行 tracer
 
 **Status:** ready-for-agent
 
